@@ -10,7 +10,7 @@ def make_mem_file(wanted_file_name, default_add_on=True):
     else:
         file_name = wanted_file_name
     create_file = open(file_name, 'a')
-    create_file.write()
+    create_file.write('init')
     create_file.close()
 
 
